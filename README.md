@@ -61,7 +61,8 @@ Para instalar sem perguntas: `Grampo-1.1.0.exe /SILENT`.
 Precisa do Python 3.12.
 
 ```
-cd C:\Users\tiluc\OneDrive\Documentos\Grampo
+git clone https://github.com/enzolucca07/grampo.git
+cd grampo
 py -3.12 -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
